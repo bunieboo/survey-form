@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/surveyform.css" />
+  </head>
+  <body>
+    <h1 class="font1" id="title">How can our company improve customer services</h1>
+    <p class="font1 font2" id="description">Thank you for taking your time to help our company</p>
+    <form id="survey-form">
+      <!--Profile in4-->
+      <div class="input-form">
+        <label for="name"> Name: </label>
+        <input required type="text" id="name" name="name" />
+      </div>
+      <div class="input-form">
+        <label for="email"> Email: </label>
+        <input required type="email" id="email" name="email" />
+      </div>
+      <div class="input-form">
+        <label for="Age"> Age: </label>
+        <input required type="number" min="18" max="100" id="Age" name="Age" />
+      </div>
+      <!--Selection-->
+      <label for="select"> Your favorite service: </label>
+      <div class="input-form">
+        <select name="select" id="select">
+          <option value="1">Gadget-Fixing</option>
+          <option value="2">HomeCare</option>
+          <option value="3">Babysitter</option>
+          <option value="4">Security</option>
+        </select>
+      </div>
+      <!--Choice-->
+      <div class="">
+        <label>Will you recommend our company to your friends?</label>
+        <div>
+          <label>
+            <input type="radio" name="choice" />
+            Yes
+          </label>
+        </div>
+        <div>
+          <label>
+            <input type="radio" name="choice" />
+            No
+          </label>
+        </div>
+        <div>
+          <label>
+            <input type="radio" name="choice" />
+            Not sure
+          </label>
+        </div>
+      </div>
+      <!--CheckBox-->
+      <label>What would you like our company to improve?</label>
+      <div>
+      <input type="checkbox" id="price" name="price" checked />
+      <label for="price">Price</label>
+    </div>
+    <div>
+        <input type="checkbox" id="attitude" name="attitude"  />
+        <label for="attitude">Attitude</label>
+      </div>
+      <div>
+        <input type="checkbox" id="flexibility" name="flexibility"  />
+        <label for="flexibility">flexibility</label>
+      </div>
+      
+
+      <!--Góp ý-->
+      <div class="input-form">
+        <label>Additional informations:</label>
+        <textarea type="text"></textarea>
+      </div>
+     <button type="submit">
+        Submit
+     </button>
+    </form>
+  </body>
+</html>

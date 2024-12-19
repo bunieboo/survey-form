@@ -1,0 +1,18 @@
+.div-me{
+    background-color: plum;
+    height: 50vh;
+}
+.div-con{
+    width: 80%;
+    background-color: lightblue;
+    height: 20vh;
+    width: 90vw;
+    height: 80%;
+    margin: auto;
+    margin-top: em;
+    padding:10px ;
+}
+.content{
+    background-color: lightpink;
+    width: 200px;
+}
